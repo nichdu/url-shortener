@@ -1,0 +1,66 @@
+html {
+	background-color: #e0e0e0;
+	overflow-y: scroll;
+}
+.top {
+	width: 800px;
+	height: 288px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+.content {
+	font-family: Verdana;
+	width: 800px;
+	margin-top: 1px;
+	margin: 0 auto;
+	margin-top: 1px;
+	background-color: white;
+	border: 1px solid black;
+}
+fieldset {
+	color: #000;
+}
+fieldset.innen {
+	width: 400px;
+	margin-bottom: 10px;
+}
+fieldset.aussen {
+	width: 450px;
+	margin: 0 auto;
+}
+fieldset#custom {
+	display: none;
+}
+h1, p {
+	text-align: center;
+}
+p.information {
+	font-size: smaller;
+}
+p.urlinfo {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #00c;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+table.listofurls, table.listofurls td, table.listofurls tr, table.listofurls th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 3px;
+}
+
+table.listofurls {
+	margin: 5px auto;
+}
+
+td.url {
+	font-family: monospace;
+}
